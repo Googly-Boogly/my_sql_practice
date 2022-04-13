@@ -1,0 +1,17 @@
+-- USE twitter;
+
+DELETE FROM tweets WHERE user_id = 2;
+
+
+SELECT *
+FROM users;
+
+-- SELECT *
+-- FROM tweets
+
+
+
+-- INSERT INTO users (first_name, last_name, handle, birthday, created_at, updated_at)
+-- VALUES ('Alex', 'Taylor', '@alext', '1765/12/1', now(), now())
+
+-- UPDATE users SET first_name = 'John', last_name= 'smith' WHERE id = 1
